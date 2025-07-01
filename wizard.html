@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Admiro admin is super flexible, powerful, clean &amp; modern responsive bootstrap 5 admin template with unlimited possibilities.">
+    <meta name="keywords"
+        content="admin template, Admiro admin template, best javascript admin, dashboard template, bootstrap admin template, responsive admin template, web app">
+    <meta name="author" content="pixelstrap">
+    <title>Admiro - Premium Admin Template</title>
+    <!-- Favicon icon-->
+    <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <!-- Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&amp;display=swap"
+        rel="stylesheet">
+    <!-- Flag icon css -->
+    <link rel="stylesheet" href="./assets/css/vendors/flag-icon.css">
+    <!-- iconly-icon-->
+    <link rel="stylesheet" href="./assets/css/iconly-icon.css">
+    <link rel="stylesheet" href="./assets/css/bulk-style.css">
+    <!-- iconly-icon-->
+    <link rel="stylesheet" href="./assets/css/themify.css">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="./assets/css/fontawesome-min.css">
+    <!-- Whether Icon css-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/vendors/weather-icons/weather-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/vendors/scrollbar.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/vendors/slick.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/vendors/slick-theme.css">
+    <!-- App css -->
+    <link id="color" rel="stylesheet" href="./assets/css/color-1.css" media="screen">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!-- tap on top starts-->
+    <div class="tap-top"><i class="iconly-Arrow-Up icli"></i></div>
+    <!-- tap on tap ends-->
+    <!-- loader-->
+    <div class="loader-wrapper">
+        <div class="loader"><span></span><span></span><span></span><span></span><span></span></div>
+    </div>
+    <div class="page-wrapper compact-wrapper" id="pageWrapper">
+        <header class="page-header row">
+            <div class="logo-wrapper d-flex align-items-center col-auto"><a href="index.html" class="text-white">
+                    <!-- <img class="light-logo img-fluid" src="./assets/images/logo/logo1.png" alt="logo" /> -->
+                    <!-- <img class="dark-logo img-fluid" src="./assets/images/logo/logo-dark.png" alt="logo" /> -->
+                    LOGO
+                </a><a class="close-btn toggle-sidebar" href="javascript:void(0)">
+                    <svg class="svg-color">
+                        <use href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Category"></use>
+                    </svg></a></div>
+            <div class="page-main-header col">
+                <div class="header-left">
+                    <!-- <form class="form-inline search-full col" action="#" method="get">
+            <div class="form-group w-100">
+              <div class="Typeahead Typeahead--twitterUsers">
+                <div class="u-posRelative">
+                  <input class="demo-input Typeahead-input form-control-plaintext w-100" type="text"
+                    placeholder="Search Admiro .." name="q" title="" autofocus="autofocus" />
+                  <div class="spinner-border Typeahead-spinner" role="status"><span class="sr-only">Loading...</span>
+                  </div><i class="close-search" data-feather="x"></i>
+                </div>
+                <div class="Typeahead-menu"></div>
+              </div>
+            </div>
+          </form>
+          <div class="form-group-header d-lg-block d-none">
+            <div class="Typeahead Typeahead--twitterUsers">
+              <div class="u-posRelative d-flex align-items-center">
+                <input class="demo-input py-0 Typeahead-input form-control-plaintext w-100" type="text"
+                  placeholder="Type to Search..." name="q" title="" /><i class="search-bg iconly-Search icli"></i>
+              </div>
+            </div>
+          </div> -->
+                </div>
+                <div class="nav-right">
+                    <ul class="header-right">
+
+
+
+
+
+
+
+
+
+
+                        <li class="profile-nav custom-dropdown">
+                            <div class="user-wrap">
+                                <div class="user-img"><img src="./assets/images/profile.png" alt="user" /></div>
+                                <div class="user-content">
+                                    <h6>Ava Davis</h6>
+                                    <p class="mb-0">Admin<i class="fa-solid fa-chevron-down"></i></p>
+                                </div>
+                            </div>
+                            <div class="custom-menu overflow-hidden">
+                                <ul class="profile-body">
+
+                                    <li class="d-flex">
+                                        <a class="ms-2" href="login.html">Log Out</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="page-body-wrapper">
+            <!-- Page sidebar start-->
+            <aside class="page-sidebar">
+                <div class="left-arrow" id="left-arrow"><i data-feather="arrow-left"></i></div>
+                <div class="main-sidebar" id="main-sidebar">
+                    <ul class="sidebar-menu" id="simple-bar">
+
+                        <li class="sidebar-list"><a class="sidebar-link" href="javascript:void(0)">
+                                <svg class="stroke-icon">
+                                    <use
+                                        href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Home-dashboard">
+                                    </use>
+                                </svg>
+                                <h6>Dashboards</h6>
+                            </a>
+
+                        </li>
+                        <li class="sidebar-list"><a class="sidebar-link" href="sample-page.html">
+                                <svg class="stroke-icon"> </svg>
+                                <h6 class="f-w-600">Childrens</h6>
+                            </a></li>
+                        <li class="sidebar-list"><a class="sidebar-link" href="form-validation.html">
+                                <svg class="stroke-icon"></svg>
+                                <h6 class="f-w-600">Add New Data</h6>
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="right-arrow" id="right-arrow"><i data-feather="arrow-right"></i></div>
+            </aside>
+            <!-- Page sidebar end-->
+            <div class="page-body">
+                <div class="container-fluid">
+                    <div class="page-title">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="text-center">Application Form(അപേക്ഷ ഫോറം)</h2>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Container-fluid starts-->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="card">
+
+                                <div class="card-body basic-wizard important-validation">
+                                    <div class="stepper-horizontal" id="stepper1">
+                                        <div class="stepper-one stepper step editing active">
+                                            <div class="step-circle"><span>1</span></div>
+                                            <!-- <div class="step-title">Step </div> -->
+                                            <div class="step-bar-left"></div>
+                                            <div class="step-bar-right"></div>
+                                        </div>
+                                        <div class="stepper-two step">
+                                            <div class="step-circle"><span>2</span></div>
+                                            <!-- <div class="step-title">Cart Info</div> -->
+                                            <div class="step-bar-left"></div>
+                                            <div class="step-bar-right"></div>
+                                        </div>
+                                        <div class="stepper-three step">
+                                            <div class="step-circle"><span>3</span></div>
+                                            <!-- <div class="step-title">Feedback</div> -->
+                                            <div class="step-bar-left"></div>
+                                            <div class="step-bar-right"></div>
+                                        </div>
+
+                                        <div class="stepper-four  step">
+                                            <div class="step-circle"><span>4</span></div>
+                                            <!-- <div class="step-title">fgdf</div> -->
+                                            <div class="step-bar-left"></div>
+                                            <div class="step-bar-right"></div>
+                                        </div>
+
+                                        <div class="stepper-five step">
+                                            <div class="step-circle"><span>5</span></div>
+                                            <!-- <div class="step-title">fgddf</div> -->
+                                            <div class="step-bar-left"></div>
+                                            <div class="step-bar-right"></div>
+                                        </div>
+
+
+                                        <div class="stepper-six step">
+                                            <div class="step-circle"><span>6</span></div>
+                                            <!-- <div class="step-title">fgddf</div> -->
+                                            <div class="step-bar-left"></div>
+                                            <div class="step-bar-right"></div>
+                                        </div>
+
+                                    </div>
+
+
+
+                                    <div id="msform">
+                                        <form class="stepper-one row g-3 needs-validation custom-input" novalidate="">
+                                            <div class="col-12">
+                                                <h3>
+                                                    A. അപേക്ഷിക്കുന്ന അനാഥ കുട്ടിയുടെ വിശദവിവരങ്ങൾ
+                                                </h3>
+                                            </div>
+
+
+                                            <div class="col-md-6 position-relative">
+                                                <label class="form-label" for="validationTooltip01">1. Name (കുട്ടിയുടെ
+                                                    പേര്):</label>
+                                                <input class="form-control" id="validationTooltip01" type="text"
+                                                    required="">
+
+                                            </div>
+
+                                            <div class="col-6">
+                                                <label class="form-label" for="formFile">Photo</label>
+                                                <input class="form-control" id="formFile" type="file" required>
+                                            </div>
+
+                                            <div class="col-md-6 position-relative">
+                                                <label class="form-label" for="validationTooltip01">2. Mother's Name
+                                                    (കുട്ടിയുടെ മാതാവിന്റെ പേര്):</label>
+                                                <input class="form-control" id="validationTooltip01" type="text"
+                                                    required="">
+
+                                            </div>
+
+                                            <div class="col-md-6 position-relative">
+                                                <label class="form-label" for="validationTooltip01">3. Father's Name
+                                                    (കുട്ടിയുടെ പിതാവിന്റെ പേര്):</label>
+                                                <input class="form-control" id="validationTooltip01" type="text"
+                                                    required="">
+
+                                            </div>
+
+                                            <div class="col-md-6 position-relative">
+                                                <label class="form-label" for="validationTooltip01">4. Address
+                                                    (കുട്ടിയുടെ
+                                                    മേൽവിലാസം):</label>
+                                                <input class="form-control" id="validationTooltip01" type="text"
+                                                    required="">
+
+                                            </div>
+
+                                            <div class="col-md-6 position-relative">
+                                                <label class="form-label" for="validationTooltip01">5. Post
+                                                    (പോസ്റ്റ്):</label>
+                                                <input class="form-control" id="validationTooltip01" type="text"
+                                                    required="">
+
+                                            </div>
+
+                                            <div class="col-md-6 position-relative">
+                                                <label class="form-label" for="validationTooltip01">6. District
+                                                    (ജില്ല):</label>
+                                                <input class="form-control" id="validationTooltip01" type="text"
+                                                    required="">
+
+                                            </div>
+
+                                            <div class="col-md-6 position-relative">
+                                                <label class="form-label" for="validationTooltip01">7. Phone
+                                                    (ഫോൺ):</label>
+                                                <input class="form-control" id="validationTooltip01" type="phone"
+                                                    required="">
+
+                                            </div>
+
+                                            <div class="col-md-6 position-relative">
+                                                <label class="form-label" for="validationTooltip01">8. Standerd
+                                                    (പഠിക്കുന്ന
+                                                    സ്കൂൾ):</label>
+                                                <input class="form-control" id="validationTooltip01" type="phone"
+                                                    required="">
+
+                                            </div>
+
+                                            <div class="col-md-6 position-relative">
+                                                <label class="form-label" for="validationTooltip01">9. Eductaional
+                                                    Institution Address (പഠിക്കുന്ന സ്ഥാപനത്തിന്റെ മേൽവിലാസം):</label>
+                                                <input class="form-control" id="validationTooltip01" type="phone"
+                                                    required="">
+
+                                            </div>
+
+                                            <div class="col-md-6 position-relative">
+                                                <label class="form-label" for="validationTooltip01">10. Mentor Name
+                                                    (ക്ലാസ് ടീച്ചറുടെ പേര്):</label>
+                                                <input class="form-control" id="validationTooltip01" type="phone"
+                                                    required="">
+
+                                            </div>
+
+                                            <div class="col-md-6 position-relative">
+                                                <label class="form-label" for="validationTooltip01">11. Mentor
+                                                    Phone Number (ക്ലാസ് ടീച്ചറുടെ ഫോൺ നമ്പർ):</label>
+                                                <input class="form-control" id="validationTooltip01" type="phone"
+                                                    required="">
+
+                                            </div>
+
+                                        </form>
+
+
+                                        <form class="stepper-two row g-3 needs-validation custom-input" novalidate="">
+
+                                            <div class="col-12">
+                                                <h3>
+                                                    B.Details of the Nominating Person / Institution(നാമനിർദ്ദേശം
+                                                    ചെയ്യുന്ന വ്യക്തിയുടെ / സ്ഥാപനത്തിന്റെ വിവരങ്ങൾ)
+                                                </h3>
+                                            </div>
+
+
+                                            <div class="col-md-6 position-relative">
+                                                <label class="form-label" for="validationTooltip01">1. Office Name
+                                                    (വ്യക്തിയുടെ / സ്ഥാപനത്തിന്റെ പേര് ):</label>
+                                                <input class="form-control" id="validationTooltip01" type="text"
+                                                    required="">
+
+                                            </div>
+
+                                            <div class="col-md-6 position-relative">
+                                                <label class="form-label" for="validationTooltip01">2.
+                                                    Designation / Profession (പദവി / തൊഴിൽ):</label>
+                                                <input class="form-control" id="validationTooltip01" type="text"
+                                                    required="">
+
+                                            </div>
+
+                                            <div class="col-md-6 position-relative">
+                                                <label class="form-label" for="validationTooltip01">3. Phone Number
+                                                    (ഫോൺ നമ്പർ):</label>
+                                                <input class="form-control" id="validationTooltip01" type="text"
+                                                    required="">
+
+                                            </div>
+
+
+
+                                        </form>
+
+                                        <form class="stepper-three row g-3 needs-validation custom-input" novalidate="">
+                                            <div class="col-12">
+                                                <h3>
+                                                    C. Bank Account Details (ബാങ്ക് അക്കൗണ്ട് വിവരങ്ങൾ)
+                                                </h3>
+                                            </div>
+
+
+
+                                            <div class="col-md-6 position-relative">
+                                                <label class="form-label" for="validationTooltip01">1.
+                                                    Borrower's/Mother's Account Number : (കുട്ടിയുടെ/മാതാവിന്റെ
+                                                    അക്കൗണ്ട് നമ്പർ):</label>
+                                                <input class="form-control" id="validationTooltip01" type="text"
+                                                    required="">
+
+                                            </div>
+
+                                            <div class="col-md-6 position-relative">
+                                                <label class="form-label" for="validationTooltip01">2. Name of Account
+                                                    Holder (അക്കൗണ്ട് ഉള്ള ആളുടെ പേര് ):</label>
+                                                <input class="form-control" id="validationTooltip01" type="text"
+                                                    required="">
+
+                                            </div>
+
+                                            <div class="col-md-6 position-relative">
+                                                <label class="form-label" for="validationTooltip01">3. Name and Branch
+                                                    Name
+                                                    of Bank(ബാങ്കിന്റെ പേര്, ബ്രാഞ്ച് ):</label>
+                                                <input class="form-control" id="validationTooltip01" type="text"
+                                                    required="">
+
+                                            </div>
+
+                                        </form>
+
+                                        <form class="stepper-four row g-3 needs-validation custom-input" novalidate="">
+                                            <div class="col-12">
+                                                <h3>
+                                                    C. Family Details (കുടുംബത്തിന്റെ വിവരങ്ങൾ)
+                                                </h3>
+                                            </div>
+
+                                            <div class="col-lg-12">
+
+                                                <div class="table-responsive">
+                                                    <table class="table">
+                                                        <caption>List of users</caption>
+                                                        <thead>
+                                                            <tr>
+                                                                <th scope="col">Sl/No.(ക്രമ നമ്പർ)</th>
+                                                                <th scope="col">Name(പേര്)</th>
+                                                                <th scope="col">Age(വയസ്സ്)</th>
+                                                                <th scope="col">Studying Class/Educational Qualification
+                                                                    (പഠിക്കുന്ന ക്ലാസ്സ്/വിദ്യാഭ്യാസ യോഗ്യത)</th>
+                                                                <th scope="col">Occupation
+
+                                                                    (ജോലി)</th>
+                                                                <th scope="col">Relationship with Applicant
+
+                                                                    (അപേക്ഷകനുമായുള്ള ബന്ധം)</th>
+                                                                <th scope="col">Monthly Income (മാസ വരുമാനം)</th>
+
+                                                                <th scope="col">Action</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+
+                                                            <tr id="addRow">
+                                                                <td class="col-xs-3">
+                                                                    <input class="form-control addMain" type="text"
+                                                                        placeholder="Enter title" />
+                                                                </td>
+
+                                                                <td class="col-xs-3">
+                                                                    <input class="form-control addName" type="text"
+                                                                        placeholder="Enter title" />
+                                                                </td>
+                                                                <td class="col-xs-5">
+                                                                    <input class="form-control addAge" type="text"
+                                                                        placeholder="Enter title" />
+                                                                </td>
+
+                                                                <td class="col-xs-3">
+                                                                    <input class="form-control addStudy" type="text"
+                                                                        placeholder="Enter title" />
+                                                                </td>
+
+                                                                <td class="col-xs-3">
+                                                                    <input class="form-control addOccupation" type="text"
+                                                                        placeholder="Enter title" />
+                                                                </td>
+                                                                <td class="col-xs-5">
+                                                                    <input class="form-control addRelation" type="text"
+                                                                        placeholder="Enter title" />
+                                                                </td>
+
+                                                                <td class="col-xs-5">
+                                                                    <input class="form-control addIncome" type="text"
+                                                                        placeholder="Enter title" />
+                                                                </td>
+
+
+
+
+                                                                <td class="col-xs-1 text-center">
+                                                                    <span class="addBtn">
+                                                                        <p>Add</p>
+                                                                    </span>
+                                                                </td>
+                                                            </tr>
+
+
+                                                            <tr>
+                                                                <th scope="row">1</th>
+                                                                <td>Elana Robbert </td>
+                                                                <td>ElanaRob@gmail.com </td>
+                                                                <td>1 Year </td>
+                                                                <td>Male </td>
+                                                                <td>+91 9789887777 </td>
+                                                                <td>28 </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">2</th>
+                                                                <td>Stiphen Deo </td>
+                                                                <td>Stiphen@yahoo.com </td>
+                                                                <td>6 Month </td>
+                                                                <td>Female</td>
+                                                                <td>+91 9874563210 </td>
+                                                                <td>22 </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">3</th>
+                                                                <td>Genelia Ottre </td>
+                                                                <td>Genelia@gmail.com </td>
+                                                                <td>2 Days </td>
+                                                                <td>Male </td>
+                                                                <td>+91 8794562135 </td>
+                                                                <td>24 </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
+
+                                            </div>
+
+                                        </form>
+
+
+                                        <form class="stepper-five row g-3 needs-validation" novalidate="">
+                                            <div class="col-12">
+                                                <h3>
+                                                    D. കോർഡിനേറ്റർ റിപ്പോർട്ട്
+                                                </h3>
+                                            </div>
+
+
+                                            <div class="col-md-12 position-relative">
+                                                <label class="form-label" for="validationTooltip01">1. Family's monthly income (കുടുംബത്തിന്റെ
+                                                    മാസവരുമാനം):</label>
+
+                                                <input class="form-control" id="validationTooltip01" type="text"
+                                                    required="">
+
+
+                                            </div>
+
+                                            <div class="col-md-12 position-relative">
+                                                <label class="form-label" for="validationTooltip01">2. Family's residence (കുടുംബത്തിന്റെ താമസം)</label>
+
+                                                <div class="radio-form d-flex">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" id="validationFormCheck25"
+                                                            type="radio" name="radio-stacked" required="">
+                                                        <label class="form-check-label"
+                                                            for="validationFormCheck25">സ്വന്തം
+                                                            വീട്</label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" id="validationFormCheck23"
+                                                            type="radio" name="radio-stacked" required="">
+                                                        <label class="form-check-label"
+                                                            for="validationFormCheck23">വാടക</label>
+                                                    </div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" id="validationFormCheck23"
+                                                            type="radio" name="radio-stacked" required="">
+                                                        <label class="form-check-label"
+                                                            for="validationFormCheck23">ഓട</label>
+                                                    </div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" id="validationFormCheck23"
+                                                            type="radio" name="radio-stacked" required="">
+                                                        <label class="form-check-label"
+                                                            for="validationFormCheck23">കോൺട്രാക്റ്റ്</label>
+                                                    </div>
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" id="validationFormCheck23"
+                                                            type="radio" name="radio-stacked" required="">
+                                                        <label class="form-check-label"
+                                                            for="validationFormCheck23">അല്ല</label>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+
+                                            <div class="col-md-12 position-relative">
+                                                <label class="form-label" for="validationTooltip01">3. Amount of land owned (കൈവശമുള്ള ഭൂമിയുടെ അളവ് ):</label>
+
+                                                <input class="form-control" id="validationTooltip01" type="text"
+                                                    required="">
+
+
+                                            </div>
+
+                                            <div class="col-md-12 position-relative">
+                                                <label class="form-label" for="validationTooltip01">4. Way to the house(വീട്ടിലേക്കുള്ള വഴി):</label>
+
+                                                <input class="form-control" id="validationTooltip01" type="text"
+                                                    required="">
+
+
+                                            </div>
+                                            <div class="col-md-12 position-relative">
+                                                <label class="form-label" for="validationTooltip01">5. Source of drinking water(കുടിക്കവെള്ളത്തിനുള്ള മാർഗ്ഗം):</label>
+
+                                                <input class="form-control" id="validationTooltip01" type="text"
+                                                    required="">
+
+
+                                            </div>
+                                            <div class="col-md-12 position-relative">
+                                                <label class="form-label" for="validationTooltip01">6. Father's cause of death(പിതാവിന്റെ മരണകാരണം ):</label>
+
+                                                <input class="form-control" id="validationTooltip01" type="text"
+                                                    required="">
+
+
+                                            </div>
+                                            <div class="col-md-12 position-relative">
+                                                <label class="form-label" for="validationTooltip01">7. Currently receiving immediate assistance(നിലവിൽ ലഭിക്കുന്ന സമീപ സഹായങ്ങൾ):</label>
+
+                                                <input class="form-control" id="validationTooltip01" type="text"
+                                                    required="">
+
+
+                                            </div>
+                                            <div class="col-md-12 position-relative">
+                                                <label class="form-label" for="validationTooltip01">8. Those with prolonged illness(ദീർഘമായ രോഗം ഉള്ളവർ):</label>
+
+                                                <input class="form-control" id="validationTooltip01" type="text"
+                                                    required="">
+
+
+                                            </div>
+                                            <div class="col-md-12 position-relative">
+                                                <label class="form-label" for="validationTooltip01">9. Those with physical/mental disability(ശാരീരിക/മാനസിക വൈകല്യം ഉള്ളവർ ):</label>
+
+                                                <input class="form-control" id="validationTooltip01" type="text"
+                                                    required="">
+
+
+                                            </div>
+                                            <div class="col-md-12 position-relative">
+                                                <label class="form-label" for="validationTooltip01">10. Total members in the family(കുടുംബത്തിലെ ആകെ അംഗങ്ങൾ):</label>
+
+                                                <input class="form-control" id="validationTooltip01" type="text"
+                                                    required="">
+
+
+                                            </div>
+                                            <div class="col-md-12 position-relative">
+                                                <label class="form-label" for="validationTooltip01">11. Volunteer's opinion(വളണ്ടിയറുടെ അഭിപ്രായം):</label>
+
+                                                <input class="form-control" id="validationTooltip01" type="text"
+                                                    required="">
+
+
+                                            </div>
+
+
+                                        </form>
+
+                                        <form class="stepper-six row g-3 needs-validation custom-input" novalidate="">
+                                            <div class="col-12">
+                                                <h3>
+                                                    D. Documents to be submitted along with the application (അപേക്ഷയുടെ
+                                                    കൂടെ സമർപ്പിക്കേണ്ട രേഖകൾ)
+                                                </h3>
+                                            </div>
+
+                                            <label class="form-label" for="placeholdername">1. Birth certificate of the
+                                                applicant child(അപേക്ഷിക്കുന്ന കുട്ടിയുടെ ജനന സർട്ടിഫിക്കറ്റ്)
+                                            </label>
+
+                                            <label class="form-label" for="textCardNumber1">2. Father's death
+                                                certificate(പിതാവിന്റെ മരണ സർട്ടിഫിക്കറ്റ്) </label>
+
+                                            <label class="form-label" for="validationCustom-ddd">3. One copy passport
+                                                size photo of the applicant child (അപേക്ഷിക്കുന്ന കുട്ടിയുടെ ഒരു കോപ്പി
+                                                പാസ്പോർട്ട് സൈസ് ഫോട്ടോ)</label>
+
+
+                                            <label class="form-label" for="cvvnumber3">4. Letter from the recommending
+                                                person / institution (റക്കമെന്റ് ചെയ്യുന്ന ആളുടെ / സ്ഥാപനത്തിന്റെ
+                                                കത്ത്)</label>
+
+
+
+                                            <label class="form-check-label" for="invalidCheck-b">6. Copies of Bank
+                                                Passbook, Ration Card, etc.(ബാങ്ക് പാസ് ബുക്ക്, റേഷൻ കാർഡ് എന്നിവയുടെ
+                                                കോപ്പികൾ)</label> <label class="form-label" for="formFile3">5. Copies of
+                                                Aadhaar cards of the applicant child and mother(അപേക്ഷിക്കുന്ന
+                                                കുട്ടിയുടെയും മാതാവിന്റെയും ആധാർ കാർഡ് കളുടെ കോപ്പികൾ)</label>
+
+
+                                        </form>
+
+
+
+                                    </div>
+                                    <div class="wizard-footer d-flex gap-2 justify-content-end mt-5">
+                                        <button type="button" class="btn text-light btn-primary" id="backbtn"
+                                            onclick="backStep()"> Back</button>
+                                        <button type="button" class="btn btn-primary" id="nextbtn"
+                                            onclick="nextStep()">Next </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-6 d-none">
+                            <div class="card">
+                                <div class="card-header card-no-border pb-0">
+                                    <h3>Student validation form</h3>
+                                    <p class="mt-1 mb-0">
+                                        Please make sure fill all the filed before click on next button.</p>
+                                </div>
+                                <div class="card-body basic-form">
+                                    <form class="form-wizard" id="regForm" action="#" method="POST">
+                                        <div class="tab">
+                                            <div class="row g-3">
+                                                <div class="col-sm-12">
+                                                    <label class="form-label" for="name">Name </label>
+                                                    <input class="form-control" id="name" type="text"
+                                                        placeholder="Enter your name" required="required">
+                                                </div>
+                                                <div class="col-sm-12">
+                                                    <label class="form-label" for="email-basic-wizard66">Email <span
+                                                            class="text-danger">*</span></label>
+                                                    <input class="form-control" id="email-basic-wizard66" type="email"
+                                                        required="" placeholder="admiro@gmail.com">
+                                                    <div class="invalid-feedback">Please enter your valid email</div>
+                                                    <div class="valid-feedback">Looks's Good!</div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <label class="col-sm-12 form-label"
+                                                        for="passwordwizard88">Password<span
+                                                            class="text-danger">*</span></label>
+                                                    <input class="form-control" id="passwordwizard88" type="password"
+                                                        placeholder="Enter password" required="">
+                                                    <div class="invalid-feedback">Please enter your valid password</div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <label class="col-sm-12 form-label" for="confirmpassowrd">Confirm
+                                                        Password<span class="text-danger">*</span></label>
+                                                    <input class="form-control" id="confirmpassowrd" type="password"
+                                                        placeholder="Enter password" required="">
+                                                    <div class="invalid-feedback">Please enter your valid password
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab">
+                                            <div class="row g-3 avatar-upload">
+                                                <div class="col-12">
+                                                    <div>
+                                                        <div class="avatar-edit">
+                                                            <input id="imageUpload" type="file"
+                                                                accept=".png, .jpg, .jpeg">
+                                                            <label for="imageUpload"></label>
+                                                        </div>
+                                                        <div class="avatar-preview">
+                                                            <div id="image"></div>
+                                                        </div>
+                                                    </div>
+                                                    <h6>Add Profile</h6>
+                                                </div>
+                                                <div class="col-12">
+                                                    <label class="form-label" for="exampleFormControlInput01">Portfolio
+                                                        URL</label>
+                                                    <input class="form-control" id="exampleFormControlInput01"
+                                                        type="url" placeholder="https://admiro">
+                                                </div>
+                                                <div class="col-12">
+                                                    <label class="form-label" for="exampleFormControlTextarea11">Project
+                                                        Description</label>
+                                                    <textarea class="form-control" id="exampleFormControlTextarea11"
+                                                        rows="2"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab">
+                                            <h5 class="mb-2">Social Links</h5>
+                                            <div class="row g-3">
+                                                <div class="col-6">
+                                                    <label class="form-label"
+                                                        for="exampleFormControlInput02">Twitter</label>
+                                                    <input class="form-control" id="exampleFormControlInput02"
+                                                        type="url" placeholder="https://twiiter.com">
+                                                </div>
+                                                <div class="col-6">
+                                                    <label class="form-label"
+                                                        for="exampleFormControlInput03">Github</label>
+                                                    <input class="form-control" id="exampleFormControlInput03"
+                                                        type="url" placeholder="https:/github.com">
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="input-group">
+                                                        <input class="form-control" id="inputGroupFile04" type="file"
+                                                            aria-describedby="inputGroupFileAddon04"
+                                                            aria-label="Upload">
+                                                        <button class="btn btn-outline-secondary"
+                                                            id="inputGroupFileAddon04" type="button">Submit</button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <select class="form-select" aria-label="Default select example">
+                                                        <option selected="">Positions</option>
+                                                        <option value="1">Web Designer</option>
+                                                        <option value="2">Software Engineer</option>
+                                                        <option value="3">UI/UX Designer </option>
+                                                        <option value="3">Web Developer</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-12">
+                                                    <label class="form-label" for="exampleFormControlTextarea22">Why do
+                                                        you want to take this position?</label>
+                                                    <textarea class="form-control" id="exampleFormControlTextarea22"
+                                                        rows="2"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="text-end pt-3">
+                                                <button class="btn btn-secondary" id="prevBtn" type="button"
+                                                    onclick="nextPrev(-1)">Previous</button>
+                                                <button class="btn btn-primary" id="nextBtn" type="button"
+                                                    onclick="nextPrev(1)">Next </button>
+                                            </div>
+                                        </div>
+                                        <!-- Circles which indicates the steps of the form:-->
+                                        <div class="text-center"><span class="step"></span><span
+                                                class="step"></span><span class="step"></span><span class="step">
+                                            </span></div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- <footer class="footer"> 
+          <div class="container-fluid">
+            <div class="row"> 
+              <div class="col-md-6 footer-copyright">
+                <p class="mb-0">Copyright 2024 © Admiro theme by pixelstrap.</p>
+              </div>
+              <div class="col-md-6">
+                <p class="float-end mb-0">Hand crafted &amp; made with
+                  <svg class="svg-color footer-icon">
+                    <use href="./assets/svg/iconly-sprite.svg#heart"></use>
+                  </svg>
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer> -->
+        </div>
+    </div>
+    <!-- jquery-->
+    <script src="./assets/js/vendors/jquery/jquery.min.js"></script>
+    <!-- bootstrap js-->
+    <script src="./assets/js/vendors/bootstrap/dist/js/bootstrap.bundle.min.js" defer=""></script>
+    <script src="./assets/js/vendors/bootstrap/dist/js/popper.min.js" defer=""></script>
+    <!--fontawesome-->
+    <script src="./assets/js/vendors/font-awesome/fontawesome-min.js"></script>
+    <!-- sidebar -->
+    <script src="./assets/js/sidebar.js"></script>
+    <!-- scrollbar-->
+    <script src="./assets/js/scrollbar/simplebar.js"></script>
+    <script src="./assets/js/scrollbar/custom.js"></script>
+    <!-- slick-->
+    <script src="./assets/js/slick/slick.min.js"></script>
+    <script src="./assets/js/slick/slick.js"></script>
+    <!-- form_wizard-->
+    <script src="./assets/js/form-wizard/image-upload.js"></script>
+    <script src="./assets/js/form-wizard/form-wizard.js"></script>
+    <!-- image upload-->
+    <script src="./assets/js/form-wizard/image-upload.js"></script>
+    <!-- theme_customizer-->
+    <!-- <script src="./assets/js/theme-customizer/customizer.js"></script> -->
+
+    <!-- Form Input add -->
+
+    <script>
+        function formatRows(name, age, study,occupation,relation,income) {
+            return '<tr><td class="col-xs-3"><input type="text" value="' + name + '" class="form-control editable" /></td>' +
+                '<td class="col-xs-3"><input type="text" value="' + age + '" class="form-control editable" /></td>' +
+                '<td class="col-xs-3"><input type="text" value="' + study + '" class="form-control editable" /></td>' +
+
+                '<td class="col-xs-3"><input type="text" value="' + occupation + '" class="form-control editable" /></td>' +
+                '<td class="col-xs-3"><input type="text" value="' + relation + '" class="form-control editable" /></td>' +
+                '<td class="col-xs-3"><input type="text" value="' + income + '" class="form-control editable" /></td>' +
+
+                '<td class="col-xs-1 text-center"><a href="#" onClick="deleteRow(this)">' +
+                '<p>delete</p></a></td></tr>';
+        };
+
+        function deleteRow(trash) {
+            $(trash).closest('tr').remove();
+        };
+
+        function addRow() {
+            var name = $('.addName').val();
+            var age = $('.addAge').val();
+            var study = $('.addStudy').val();
+            var occupation = $('.addOccupation').val();
+            var relation = $('.addRelation').val();
+            var income = $('.addIncome').val();
+            $(formatRows(name, age, study,occupation,relation,income)).insertAfter('#addRow');
+            $(input).val('');
+        }
+
+        $('.addBtn').click(function () {
+            addRow();
+        });
+
+    </script>
+
+     
+
+
+    <!-- custom script -->
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
