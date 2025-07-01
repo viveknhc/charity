@@ -18684,6 +18684,14 @@ div .action .pdf i {
   color: var(--danger-color);
 }
 
+div .action .view{
+   margin-right: 5px;
+}
+
+div .action .view i{
+   color: var(--active-shadow);
+}
+
 div .action .edit {
   margin-right: 5px;
 }
