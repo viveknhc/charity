@@ -28193,7 +28193,7 @@ input::-webkit-inner-spin-button {
   display: flex;
   width: 100%;
   margin: 0 auto;
-  overflow: auto;
+  overflow: hidden;
   margin-bottom: 24px;
 }
 
@@ -56559,9 +56559,9 @@ label {
   gap: 10px;
 }
 
-.charity-home .important-box{
-    border-top: 1px solid #cccccc;
-    border-bottom: 1px solid #cccccc;
-    padding: 10px 20px;
-    margin: 0 0 20px 0;
+.charity-home .important-box {
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  padding: 10px 20px;
+  margin: 0 0 20px 0;
 }
