@@ -32813,6 +32813,12 @@ input::-webkit-inner-spin-button {
   justify-content: space-between;
   padding: 15px 16px;
   background-color: var(--theme-default);
+ 
+
+}
+
+.page-header .logo-wrapper h3{
+  color: #000;
 }
 
 @media (max-width: 1199px) {
